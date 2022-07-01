@@ -1,0 +1,31 @@
+---
+title: "Stats 2244 - R Project #1"
+author: "Shreeram Patkar"
+date: '2022-07-01'
+output:
+  html_document: default
+  pdf_document: default
+---
+
+### Task 1
+```{r csv, echo = TRUE}
+ad<-read.csv("actdata.csv")
+str(ad)
+```
+
+The str() function appears to print out the basic structure of the data frame. In this case it seems to list out all the explanatory variable names (encounter, share, etc.) as well as their data type (integer) and all the corresponding values.
+
+### Task 2
+This *sentence* is supposed to show the **answer** to task #2
+
+### Task 3
+- Stratified Sampling
+- Simple Random Sampling
+- Clustered Sampling
+
+### Task 4
+```{r t4, echo=FALSE}
+mean(ad$age[ad$sex==1]) # mean age for males
+```
+
+
