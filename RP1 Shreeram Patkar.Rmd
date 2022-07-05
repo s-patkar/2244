@@ -3,8 +3,8 @@ title: "Stats 2244 - R Project #1"
 author: "Shreeram Patkar"
 date: '2022-07-01'
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
 ### Task 1
